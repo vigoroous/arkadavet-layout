@@ -1,0 +1,49 @@
+/* .content_main {} */
+
+.main__lightbox {
+    display: flex;
+    max-width: 980px;
+}
+
+.main__lb-article {
+    max-width: 380px;
+    background-color: rgba(128, 166, 173, 1);
+}
+
+.main__lb-title {
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 24px;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #405357;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main__lb-text {
+    margin-top: 100px;
+    margin-left: 28px;
+    letter-spacing: 2.20000004768372px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    text-align: left;
+    width: 339px;
+}
+
+.main__lb-line {
+    width: 305px;
+    margin-top: 8px;
+    margin-left: 26px;
+    border-bottom: 3px solid rgba(96, 125, 130, 1);
+}
+
+.main__lb-image {
+    width: 600px;
+    height: 338px;
+    background: url('/img/horse-gf90161858_640.jpg');
+    background-size: cover;
+}
