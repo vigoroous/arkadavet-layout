@@ -27,22 +27,21 @@
 
 .header__logo {
     white-space: nowrap;
-    margin: 0px 41px 4px 41px;
+    /* margin: 0px 50px 4px 50px; */
+    margin: 0px 50px;
 }
 
 .header__logo-link {
-    /* font-size: 22px; */
-    line-height: 1.5em;
-    /* font-family: Tahoma; */
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
     color: #445F64;
     text-decoration: none;
-    padding: 8px 12px 8px 12px;
-    background-color: #445F64;
-    color: #ffffff;
-    /* border-bottom: 2px solid #445F64; */
+    /* padding: 8px 12px 8px 12px; */
+    /* background-color: #445F64; */
+    /* color: #ffffff; */
+    padding-bottom: 2px;
+    border-bottom: 2px solid #445F64;
 }
 
 .header__nav {

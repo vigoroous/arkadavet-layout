@@ -6,6 +6,8 @@ body {
 .content {
     margin: 98px auto 0px;
     max-width: 980px;
+    padding-bottom: 100px;
+    /* background-color: #FFFFFF; */
 }
 
 
