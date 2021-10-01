@@ -2,19 +2,19 @@
     padding-bottom: 100px;
 } */
 
-/* main__lightbox */
+/* lightbox */
 
-.main__lightbox {
+.lightbox {
     display: flex;
     max-width: 980px;
 }
 
-.main__lb-article {
+.lightbox__article {
     max-width: 380px;
     background-color: rgba(128, 166, 173, 1);
 }
 
-.main__lb-title {
+.lightbox__title {
     margin: 0;
     margin-top: 32px;
     margin-left: 24px;
@@ -27,7 +27,7 @@
     text-transform: uppercase;
 }
 
-.main__lb-text {
+.lightbox__text {
     margin-top: 100px;
     margin-left: 28px;
     letter-spacing: 2.2px;
@@ -39,134 +39,115 @@
     width: 339px;
 }
 
-.main__lb-line {
+.lightbox__line {
     width: 305px;
     margin-top: 8px;
     margin-left: 26px;
     border-bottom: 3px solid rgba(96, 125, 130, 1);
 }
 
-.main__lb-image {
+.lightbox__image {
     width: 600px;
     height: 338px;
-    background: url('/img/horse-gf90161858_640.jpg');
+    background: url('/img/cover_horse.jpg');
     background-size: cover;
 }
 
-/* main__filter, main__sorting */
+/* control */
 
-/* .main__filter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
-} */
-
-.main__menu {
+.control {
     display: flex;
     margin-top: 40px;
 }
 
-.main__filter {
+.control__filter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 70%;
     gap: 12px 12px;
 }
 
-/* .main__sorting {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
-} */
-
-.main__sorting {
+.control__sorting {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
 }
 
-.main__divider {
+.control__divider {
     width: 1px;
     background-color: #b3b3b3;
     margin: 6px 12px;
 }
 
-.main__button {
+.control__button {
     width: 100%;
     padding: 0 10px;
     overflow: hidden;
-    /* background: #EEE; */
     background-color: #e0e0e0;
     border: none;
     outline: none;
     font-family: 'Roboto';
     font-size: 15px;
-    /* line-height: 27px; */
     color: #668F96;
     text-align: center;
     /* transition: color 0.4s ease 0s; */
 }
 
-.main__filter>.main__button {
+.control__filter>.control__button {
     line-height: 20px;
     height: 54px;
 }
 
-.main__sorting>.main__button {
+.control__sorting>.control__button {
     line-height: 20px;
     height: 36px;
 }
 
-.main__button:hover {
-    /* background-color: #779593; */
+.control__button:hover {
     background-color: #80A6AD;
-    /* text-shadow: 0 1px hsla(0, 0%, 100%, 0.5); */
     color: #FFF;
     cursor: pointer;
 }
 
-.main__button:active, .main__button_active {
+.control__button:active, .control__button_active {
     background-color: #445F64;
 }
 
-.main__button_active {
+.control__button_active {
     color: white;
     text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
 }
 
-.main__button:active {
+.control__button:active {
     box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
 }
 
 /* main__products */
 
-.main__products {
+.products {
     margin-top: 40px;
-    /* margin: 40px 40px 0px 40px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
 
-.main__product {
+.products__item {
     background-color: #e0e0e0;
     padding: 10px;
     cursor: pointer;
 }
 
-.main__product:hover {
+.products__item:hover {
     background-color: rgba(128, 166, 173, 1);
     color: #FFFFFF;
 }
 
-.main__product:hover>.main__product-name {
+.products__item:hover>.products__item-name {
     color: #FFFFFF;
 }
 
-.main__product-name {
+.products__item-name {
     font-family: 'Raleway';
     font-size: 24px;
     font-weight: 600;
@@ -181,7 +162,7 @@
     text-align: center;
 }
 
-.main__product-category {
+.products__item-category {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
@@ -193,7 +174,7 @@
     text-align: center;
 }
 
-.main__product-image {
+.products__item-image {
     margin: 10px;
     height: 180px;
     background-image: url('/img/products/bottle2-edit.png');
@@ -202,6 +183,6 @@
     background-size: contain;
 }
 
-.main__product:nth-child(2)>.main__product-image{
+.products__item:nth-child(2)>.products__item-image{
     background-image: url('/img/products/pack2-edit.png');
 }

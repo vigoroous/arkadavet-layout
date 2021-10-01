@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;600&family=Roboto:wght@400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;600&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
     <!--styles-->
     <link rel="stylesheet" href="/css/header.css">
@@ -22,73 +22,73 @@
 
 <body>
     <header class="header">
-        <div class="header__menu">
+        <div class="header__wrap">
             <div class="header__logo">
                 <a class="header__logo-link" href="/">Аркада-Вет</a>
             </div>
-            <div class="header__nav">
+            <nav class="header__nav">
                 <a class="header__nav-link" href="/">Каталог</a>
                 <a class="header__nav-link" href="/about">О нас</a>
                 <a class="header__nav-link" href="/contacts">Контакты</a>
-            </div>
+            </nav>
         </div>
     </header>
     <main class="content content_main">
-        <div class="main__lightbox">
-            <div class="main__lb-article">
-                <h1 class="main__lb-title">Ветеринарные препараты</h1>
-                <div class="main__lb-text">
+        <div class="lightbox">
+            <div class="lightbox__article">
+                <h1 class="lightbox__title">Ветеринарные препараты</h1>
+                <div class="lightbox__text">
                     вакцины для с/х животных
                     <br>
                     кормовые добавки
                 </div>
-                <div class="main__lb-line"></div>
+                <div class="lightbox__line"></div>
             </div>
-            <div class="main__lb-image"></div>
+            <div class="lightbox__image"></div>
         </div>
-        <div class="main__menu">
-            <div class="main__filter">
-                <button class="main__button main__button_active">Показать все</button>
-                <button class="main__button" data-filter="antibacterial">Антибактер. препараты</button>
-                <button class="main__button" data-filter="anti-coccidal">Противококц. препараты</button>
-                <button class="main__button" data-filter="vitamins">Кормовые<br>добавки</button>
-                <button class="main__button" data-filter="adsorbent">Адсорбент микотоксинов</button>
-                <button class="main__button" data-filter="anti-inflammatory">Противовосп. препараты</button>
-                <button class="main__button" data-filter="hormonal">Гормональные препараты</button>
-                <button class="main__button" data-filter="complex">Противоинф. препараты</button>
+        <div class="control">
+            <div class="control__filter">
+                <button class="control__button control__button_active">Показать все</button>
+                <button class="control__button" data-filter="antibacterial">Антибактер. препараты</button>
+                <button class="control__button" data-filter="anti-coccidal">Противококц. препараты</button>
+                <button class="control__button" data-filter="vitamins">Кормовые<br>добавки</button>
+                <button class="control__button" data-filter="adsorbent">Адсорбент микотоксинов</button>
+                <button class="control__button" data-filter="anti-inflammatory">Противовосп. препараты</button>
+                <button class="control__button" data-filter="hormonal">Гормональные препараты</button>
+                <button class="control__button" data-filter="complex">Противоинф. препараты</button>
             </div>
-            <div class="main__divider"></div>
-            <div class="main__sorting">
-                <button class="main__button main__button_active" data-sort-by="rating">По популярности</button>
-                <button class="main__button" data-sort-by="name">По названию</button>
-                <button class="main__button" data-sort-by="category">По категории</button>
+            <div class="control__divider"></div>
+            <div class="control__sorting">
+                <button class="control__button control__button_active" data-sort-by="rating">По популярности</button>
+                <button class="control__button" data-sort-by="name">По названию</button>
+                <button class="control__button" data-sort-by="category">По категории</button>
             </div>
         </div>
-        <div class="main__products">
-            <div class="main__product">
-                <div class="main__product-name">Аквадокс</div>
-                <div class="main__product-category">Антибактериальные<br>препараты</div>
-                <div class="main__product-image"></div>
+        <div class="products">
+            <div class="products__item">
+                <div class="products__item-name">Аквадокс</div>
+                <div class="products__item-category">Антибактериальные<br>препараты</div>
+                <div class="products__item-image"></div>
             </div>
-            <div class="main__product">
-                <div class="main__product-name">Харуфикс +</div>
-                <div class="main__product-category">Адсорбент<br>микотоксинов</div>
-                <div class="main__product-image"></div>
+            <div class="products__item">
+                <div class="products__item-name">Харуфикс +</div>
+                <div class="products__item-category">Адсорбент<br>микотоксинов</div>
+                <div class="products__item-image"></div>
             </div>
-            <div class="main__product">
-                <div class="main__product-name">Аквадокс</div>
-                <div class="main__product-category">Антибактериальные<br>препараты</div>
-                <div class="main__product-image"></div>
+            <div class="products__item">
+                <div class="products__item-name">Аквадокс</div>
+                <div class="products__item-category">Антибактериальные<br>препараты</div>
+                <div class="products__item-image"></div>
             </div>
-            <div class="main__product">
-                <div class="main__product-name">Аквадокс</div>
-                <div class="main__product-category">Антибактериальные<br>препараты</div>
-                <div class="main__product-image"></div>
+            <div class="products__item">
+                <div class="products__item-name">Аквадокс</div>
+                <div class="products__item-category">Антибактериальные<br>препараты</div>
+                <div class="products__item-image"></div>
             </div>
-            <div class="main__product">
-                <div class="main__product-name">Аквадокс</div>
-                <div class="main__product-category">Антибактериальные<br>препараты</div>
-                <div class="main__product-image"></div>
+            <div class="products__item">
+                <div class="products__item-name">Аквадокс</div>
+                <div class="products__item-category">Антибактериальные<br>препараты</div>
+                <div class="products__item-image"></div>
             </div>
         </div>
     </main>

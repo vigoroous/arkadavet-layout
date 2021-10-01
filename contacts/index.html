@@ -11,27 +11,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;600&family=Roboto:wght@400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;600&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
     <!--styles-->
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/contacts.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header__menu">
+        <div class="header__wrap">
             <div class="header__logo">
                 <a class="header__logo-link" href="/">Аркада-Вет</a>
             </div>
-            <div class="header__nav">
+            <nav class="header__nav">
                 <a class="header__nav-link" href="/">Каталог</a>
                 <a class="header__nav-link" href="/about">О нас</a>
                 <a class="header__nav-link" href="/contacts">Контакты</a>
-            </div>
+            </nav>
         </div>
     </header>
+    <main class="content content_contacts">
+        <h1 class="contacts__title">Контакты</h1>
+        <div class="contacts__wrap">
+            <div class="contacts__article">
+                <p class="contacts__text">
+                    С нами Вы всегда можете связаться по телефонам или электронной почте,
+                    указанным ниже. Позвонив нам, Вы сможете получить консультацию по выбору наиболее подходящего
+                    препарата для Ваших целей. Мы также рассчитаем окончательную стоимость заказа.
+                </p>
+                <p class="contacts__phone">
+                    +7&nbsp;(495)&nbsp;514-73-63
+                    <br>
+                    +7&nbsp;(903)&nbsp;614-15-92
+                </p>
+                <!-- <p class="contacts__phone"></p> -->
+                <p class="contacts__email">arkada.vet@yandex.ru</p>
+                <p class="contacts__text">Мы работаем ежедневно и без выходных.</p>
+            </div>
+            <form class="contacts__form">
+                <input type="text" name="name" class="contacts__form-input" placeholder="Имя">
+                <input type="text" name="email" class="contacts__form-input" placeholder="Эл. почта">
+                <input type="text" name="phone" class="contacts__form-input" placeholder="Телефон">
+                <textarea cols="40" rows="5" name="order" class="contacts__form-textarea"
+                    placeholder="Добавьте сообщение..."></textarea>
+                <button type="submit" class="contacts__form-button">Отправить</button>
+            </form>
+        </div>
+    </main>
     <footer class="footer pt_60 pb_60">
         <div class="footer__copyright">&copy; ООО Аркада-Вет, 2019-2021</div>
     </footer>

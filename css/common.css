@@ -7,6 +7,7 @@ body {
     margin: 98px auto 0px;
     max-width: 980px;
     padding-bottom: 100px;
+    min-height: calc(100vh - 98px - 139px);
     /* background-color: #FFFFFF; */
 }
 

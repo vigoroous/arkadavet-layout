@@ -1,14 +1,12 @@
 /* .content_about */
 
 .content_about {
-    /* background-color: #e0e0e0; */
-    /* background-color: #e7e7e7; */
     background-color: #e6e6e6;
 }
 
 .about__cover {
     height: 338px;
-    background-image: url('/img/pexels-matthias-zomer-325257.jpg');
+    background-image: url('/img/cover_cows.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -40px;
@@ -21,7 +19,7 @@
 
 .about__title {
     font-family: 'Roboto';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     color: #000000;
     text-align: center;
@@ -37,16 +35,12 @@
     color: #000000;
 }
 
-.about__partners {
+.partners {
     display: flex;
     justify-content: space-evenly;
 }
 
-.about__partner {
-    
-}
-
-.about__partner-logo {
+.partners__item {
     height: 90px;
     width: 260px;
     background-repeat: no-repeat;
@@ -54,10 +48,10 @@
     background-size: contain;
 }
 
-.about__partner:nth-child(1)>.about__partner-logo {
+.partners__item:nth-child(1) {
     background-image: url('/img/partners/harufarm_logo.png');
 }
 
-.about__partner:nth-child(2)>.about__partner-logo {
+.partners__item:nth-child(2) {
     background-image: url('/img/partners/nitafarm_logo.svg');
 }
