@@ -27,8 +27,7 @@
 
 .header__logo {
     white-space: nowrap;
-    /* margin: 0px 50px 4px 50px; */
-    margin: 0px 50px;
+    margin: 0px 50px 2px 50px;
 }
 
 .header__logo-link {
@@ -37,9 +36,6 @@
     font-weight: 600;
     color: #445F64;
     text-decoration: none;
-    /* padding: 8px 12px 8px 12px; */
-    /* background-color: #445F64; */
-    /* color: #ffffff; */
     padding-bottom: 2px;
     border-bottom: 3px solid #445F64;
 }
