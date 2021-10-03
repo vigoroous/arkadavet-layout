@@ -28,5 +28,6 @@ body {
     .content {
         margin-top: 74px;
         padding-bottom: 50px;
+        min-height: calc(100vh - 74px - 76px);
     }
 }

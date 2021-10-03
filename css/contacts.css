@@ -14,7 +14,6 @@
 }
 
 .contacts__article {
-    /* width: 41.65%; */
     width: 43%;
     margin-right: 40px;
 }
@@ -23,63 +22,20 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
-    color: #0f0f0f;
-    /* margin: 0; */
+    color: #0F0F0F;
 }
 
 .contacts__text {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 20px;
-    color: #0f0f0f;
+    color: #0F0F0F;
     margin: 0;
 }
 
-.contacts__form {
-    /* width: 58.35%; */
-    width: 57%;
-}
-
-.contacts__form-input, .contacts__form-textarea {
-    box-sizing: border-box;
-    border-radius: 0;
-    padding: 10px 20px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 300;
-    background-color: #edeff0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: 1px solid rgba(68, 95, 100, 1);
-    color: #445F64;
-    margin: 0 0 7px;
-    width: 100%;
-    outline: 0;
-}
-
-.contacts__form-textarea {
-    resize: none;
-}
-
-.contacts__form-button {
-    background-color: #405357;
-    color: #fff;
-    border: 0;
-    padding: 10px 20px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 300;
-    width: 40%;
-    min-width: 200px;
-    cursor: pointer;
-}
-
-.contacts__form-button:hover {
-    background-color: rgba(128, 166, 173, 1);
-}
-
-.contacts__form-button:active {
-    margin-top: 2px;
+.form_contacts {
+    width: 50%;
+    margin-right: 7%;
 }
 
 @media (max-width: 980px) {
@@ -94,10 +50,11 @@
         margin-right: 0;
         margin-bottom: 50px;
     }
-    .contacts__form {
+    .form_contacts {
         width: 100%;
+        margin-right: 0;
     }
-    .contacts__form-button {
+    .form_contacts .form__button {
         width: 100%;
     }
 }
@@ -115,10 +72,10 @@
     .contacts__phone, .contacts__email {
         font-size: 16px;
     }
-    .contacts__form-input, .contacts__form-textarea {
+    .form_contacts .form__input, .form_contacts .form__textarea {
         font-size: 16px;
     }
-    .contacts__form-button {
+    .form_contacts .form__button {
         font-size: 16px;
     }
 }
