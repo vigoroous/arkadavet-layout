@@ -70,6 +70,7 @@
     font-size: 20px;
     font-weight: 300;
     width: 40%;
+    min-width: 200px;
     cursor: pointer;
 }
 
@@ -79,4 +80,45 @@
 
 .contacts__form-button:active {
     margin-top: 2px;
+}
+
+@media (max-width: 980px) {
+    .contacts__wrap {
+        flex-direction: column;
+    }
+    .contacts__title {
+        margin-top: 0;
+    }
+    .contacts__article {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .contacts__form {
+        width: 100%;
+    }
+    .contacts__form-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .content_contacts {
+        padding: 50px;
+    }
+    .contacts__title {
+        font-size: 32px;
+    }
+    .contacts__text {
+        font-size: 16px;
+    }
+    .contacts__phone, .contacts__email {
+        font-size: 16px;
+    }
+    .contacts__form-input, .contacts__form-textarea {
+        font-size: 16px;
+    }
+    .contacts__form-button {
+        font-size: 16px;
+    }
 }
