@@ -4,14 +4,11 @@ body {
 }
 
 .content {
-    /* margin: 98px auto 0px; */
-    margin: 64px auto 0px;
+    margin: 98px auto 0px;
+    min-height: calc(100vh - 98px - 139px);
     max-width: 1200px;
     padding-bottom: 100px;
-    /* min-height: calc(100vh - 98px - 139px); */
-    min-height: calc(100vh - 64px - 76px);
     box-sizing: border-box;
-    /* background-color: #FFFFFF; */
 }
 
 @media (max-width: 1200px) {
@@ -22,6 +19,8 @@ body {
 
 @media (max-width: 980px) {
     .content {
+        margin: 64px auto 0px;
+        min-height: calc(100vh - 64px - 76px);
         max-width: 640px;
     }
 }
